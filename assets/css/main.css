@@ -3644,8 +3644,8 @@ input, select, textarea {
 
 			#contact > .inner > :nth-child(2n - 1) {
 				padding: 4em 3em 2em 0 ;
-				border-right: solid 1px rgba(212, 212, 255, 0.1);
-				width: 60%;
+				border-right: none;
+				width: 100%;
 			}
 
 			#contact > .inner > :nth-child(2n) {
@@ -3956,3 +3956,50 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+.lets-talk{
+	font-size: 100px;
+	display: inline-block;
+	padding: 40px 0;
+	margin: 0;
+	line-height: 60px;
+	width: 100%;
+}
+
+.color1{
+	color: #40fff9;
+	padding-left: -20px;
+}
+.color2{
+	color: #fffc01;
+}
+.color3{
+	color: #ff00ed;
+}
+.email-text{
+	display: inline-block;
+	margin: 10px 20px 10px 0;
+	border-bottom: none;
+	font-size: 26px;
+	font-weight: bold;
+}
+.celular, 
+.whats{
+	display: inline-block;
+	margin: 10px 20px 10px 0;
+}
+.celular span{
+	font-size: 18px;
+}
+.celular h3, .celular .number,
+.whats h3, .whtas .number{
+	display: inline-block;
+	font-size: 26px;
+	padding-left: 10px;
+}
+.whats span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.whats span img{
+	width: 40px;
+}
